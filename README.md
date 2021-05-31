@@ -5,7 +5,7 @@ Librería codificada en lenguaje PHP para el framework CODEIGNITER v3
 
 ## Instalación
 - Instalar la versión más reciente de MiFIEL, ejecute el comando `php composer.phar require mifiel/api-client`. Si no tiene **Composer** instalado puede consultar la siguiente liga [ [composer]() ]
-- Configurar autoload de librerias composer dentro del archivo `{[ROOTDIR]}/application/config/config.php`, buscar sección `$config['composer_autoload']` y pegar el siguiente valor `FCPATH.'vendor/autoload.php'`, deberà quedar de la siguiente manera `$config['composer_autoload'] = FCPATH.'vendor/autoload.php';`
+- Configurar autoload de librerias composer dentro del archivo `{[ROOTDIR]}/application/config/config.php`, buscar sección `$config['composer_autoload']` y pegar el siguiente valor `FCPATH.'vendor/autoload.php'`, deberá quedar de la siguiente manera `$config['composer_autoload'] = FCPATH.'vendor/autoload.php';`
 - Copiar el archivo `MiFIELLib.p12` en la carpeta raíz del proyecto.
 - Dentro del archivo `{[ROOTDIR]}/application/config/constants.php` crear las siguientes constantes.
     ```code
